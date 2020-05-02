@@ -34,6 +34,7 @@ public class AppTest {
     public void testMultiply() {
         int a = 10;
         int b = 25;
+        System.out.println("HELLOOOOOOOOOOOOOOOOOO");
         long expectedResult = 250;
         long result = calculator.multiply(a, b);
         Assert.assertEquals(expectedResult, result);;
