@@ -11,7 +11,7 @@ public class App {
 	}
 
 	public static int add(int a, int b) {
-		return a + b;
+		return a + b + 99;
 	}
 	
 	public static int subtract(int a, int b) {
