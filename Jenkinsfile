@@ -1,7 +1,7 @@
 pipeline {
 	environment {
-    	registry = "strangerthug/calc"
-    	registryCredential = 'dockerhub-creds'
+    	registry = "maharshi18/sample"
+    	registryCredential = 'mv_docker'
     	dockerImage = ''
   }
     agent any 
@@ -37,11 +37,6 @@ pipeline {
           			}
         		}
       		}
-    	}
-    	stage('Trigger Rundeck'){
-    		steps {
-    			build 	'rundeck-test'
-    		}
     	}
     }
 } 
