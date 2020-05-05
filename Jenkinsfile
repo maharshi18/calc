@@ -38,5 +38,10 @@ pipeline {
         		}
       		}
     	}
+        stage('Rundeck'){
+            steps{
+                build 'rundeck_test'
+            }
+        }
     }
 } 
