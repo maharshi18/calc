@@ -15,23 +15,23 @@ public class App {
 		return a + b;
 	}
 	
-	public static int subtract(final int a, final int b) {
-		return a - b;
-	}
+	// public static int subtract(final int a, final int b) {
+	// 	return a - b;
+	// }
 
-	public static long multiply(final int a, final int b) {
-		return a * b;
-	}
+	// public static long multiply(final int a, final int b) {
+	// 	return a * b;
+	// }
 
-	public static double divide(final int a, final int b) {
-		double result;
-		if (b == 0) {
-			throw new IllegalArgumentException("Divisor cannot divide by zero");
-		} else {
-			result = Double.valueOf(a)/Double.valueOf(b);
-		}
-		return result;
-	}
+	// public static double divide(final int a, final int b) {
+	// 	double result;
+	// 	if (b == 0) {
+	// 		throw new IllegalArgumentException("Divisor cannot divide by zero");
+	// 	} else {
+	// 		result = Double.valueOf(a)/Double.valueOf(b);
+	// 	}
+	// 	return result;
+	// }
 }
 
 
