@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class App {
 	public static void main(String[] args){
 		System.out.println("10 + 29 = " + add(10, 29));
-		// System.out.println("10 - 29 = " + subtract(10,29));
-		// System.out.println("10 * 29 = " + (int)multiply(10,29));
-		// System.out.println("10 / 29 = " + (int)divide(10,29));
+		System.out.println("10 - 29 = " + subtract(10,29));
+		System.out.println("10 * 29 = " + (int)multiply(10,29));
+		System.out.println("10 / 29 = " + (int)divide(10,29));
 
 			}
 
